@@ -1,0 +1,73 @@
+# =========================================================================
+# Build Outputs
+# =========================================================================
+build/
+bin/
+target/
+out/
+dist/
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Packages / Archives
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================================================================
+# IDEs and Editors
+# =========================================================================
+# Eclipse (Dynamic Web Project settings)
+# Note: Since this project relies on Eclipse configurations (.project, .classpath, .settings) 
+# and does not use Maven/Gradle, we've kept them tracked. However, we ignore metadata 
+# and temporary files.
+.metadata/
+.recommenders/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+.loadpath
+
+# If you decide to ignore Eclipse project config later, uncomment the following:
+# .classpath
+# .project
+# .settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# =========================================================================
+# Operating System files
+# =========================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+*.ini
+
+# =========================================================================
+# Local environment and credentials
+# =========================================================================
+.env
+*.local
+secrets/
