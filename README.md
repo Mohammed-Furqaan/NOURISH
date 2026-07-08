@@ -201,23 +201,6 @@ http://localhost:8080/Nourish/
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots of your application here.
-
-Example:
-
-- Home Page
-- Restaurant Listing
-- Restaurant Menu
-- Cart
-- Checkout
-- Order Success
-- Login
-- Admin Dashboard
-
----
-
 # 🚀 Future Enhancements
 
 - Online Payment Gateway Integration
