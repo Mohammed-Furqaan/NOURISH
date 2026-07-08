@@ -1,0 +1,57 @@
+/* ==========================================
+          NOURISH - CART & CHECKOUT
+========================================== */
+
+/* Cart Card */
+.cart-item-card {
+    background: white;
+    border-radius: var(--border-radius-md);
+    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-smooth);
+}
+
+.cart-item-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+/* Quantity Control Buttons */
+.qty-input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* Grand Total Panel */
+.checkout-summary-card {
+    background: white;
+    border-radius: var(--border-radius-md);
+    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Checkout Grid */
+.checkout-panel {
+    background: white;
+    border-radius: var(--border-radius-md);
+    padding: 30px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(0,0,0,0.03);
+}
+
+/* Success Animation Card */
+.success-checkmark-card {
+    background: white;
+    max-width: 550px;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+.success-icon-wrapper {
+    font-size: 72px;
+    color: #28a745;
+    margin-bottom: 24px;
+}
