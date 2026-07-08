@@ -75,13 +75,8 @@ public class AddToCartServlet extends HttpServlet {
             cart = cartDAO.getCartByUserId(userId);
         }
 
-        // Restrict cart to one restaurant (automatically clear and replace)
+        // Update cart's restaurant ID without clearing previous items
         if (cart.getRestaurantId() != restaurantId) {
-            List<CartItem> oldItems =
-                    cartItemDAO.getCartItemsByCartId(cart.getCartId());
-            for (CartItem item : oldItems) {
-                cartItemDAO.deleteCartItem(item.getCartItemId());
-            }
             cart.setRestaurantId(restaurantId);
             cartDAO.updateCart(cart);
         }
