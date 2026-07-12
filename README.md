@@ -240,7 +240,7 @@ https://github.com/Mohammed-Furqaan
 
 **LinkedIn**
 
-*Add your LinkedIn profile here.*
+https://www.linkedin.com/in/mohammed-furqaan/
 
 ---
 
