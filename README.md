@@ -232,7 +232,7 @@ If you'd like to improve this project:
 
 ### Mohammed Furqaan
 
-Computer Science Engineer
+Computer Science Engineer.
 
 **GitHub**
 
